@@ -1,0 +1,233 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+body {
+    background-image: url('../img/alzatefondo.JPG');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    height: 40%;
+}
+.cuerpo {
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    padding-top: 300px;
+    margin-top: 40px;
+    height: 450px;
+}
+article p{
+    -webkit-text-stroke: 1.4px black;
+    font-size: 50px;
+}
+.introd {
+    margin-top: -90px;
+}
+section h2 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-top: 30px;
+}
+section h2:hover {
+    color: rgb(157, 209, 255);
+}
+.introd article {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.introd aside {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.caja1 {
+    width: 280px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 25%;
+    transition: all 0.25s;
+}
+.caja1 a{
+    text-decoration: none;
+}
+h4{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    top: 4px;
+}
+.caja1:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 10px 14px rgba(0,0,0,0.2);
+}
+.caja2 {
+    width: 280px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    position: relative;
+    bottom: 30px;
+    left: 50%;
+    transition: all 0.25s;
+}
+.caja2:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 10px 14px rgba(0,0,0,0.2);
+}
+.cuerpo input{
+    width: 600px;
+    height: 50px;
+    font-size: 25px;
+    border-color: rgb(201, 144, 255);
+    position: relative;
+    left: 30%;
+    bottom: 250px;
+}
+.cuerpo .tarjetica{
+    background-color: white;
+    position: relative;
+    width: 20%;
+    height: 500px;
+    margin-top: -150px;
+    margin-left: 100px;
+    border-radius: 15px;
+    transition: all 0.25s;
+
+}
+.cuerpo .tarjetica img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cuerpo .tarjetica .aside1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.cuerpo .tarjetica .aside2{
+    font-size: 25px;
+    background-color: rgb(255, 95, 95);
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    bottom: -10px;
+}
+.cuerpo .tarjetica:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 10px 14px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.cuerpo .tarjetica2{
+    background-color: white;
+    position: relative;
+    width: 20%;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 1100px;
+    border-radius: 15px;
+    transition: all 0.25s;
+
+}
+.cuerpo .tarjetica2 img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cuerpo .tarjetica2 .aside3{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.cuerpo .tarjetica2 .aside4{
+    font-size: 25px;
+    background-color: rgb(73, 76, 255);
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    bottom: -10px;
+}
+.cuerpo .tarjetica2:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 10px 14px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+.cuerpo .tarjetica3{
+    background-color: white;
+    position: relative;
+    width: 20%;
+    height: 500px;
+    margin-top: -500px;
+    margin-left: 590px;
+    border-radius: 15px;
+    transition: all 0.25s;
+
+}
+.cuerpo .tarjetica3 img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cuerpo .tarjetica3 .aside5{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.cuerpo .tarjetica3 .aside6{
+    font-size: 25px;
+    background-color: rgb(137, 40, 40);
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    bottom: -10px;
+}
+.cuerpo .tarjetica3:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 10px 14px rgba(0,0,0,0.2);
+}
+
+
+
+aside a{
+    text-decoration: none;
+    color: white;
+}

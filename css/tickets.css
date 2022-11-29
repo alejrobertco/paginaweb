@@ -1,0 +1,229 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+body {
+    background-image: url('../img/bacilos2.JPG');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255) ;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255) ;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.675) ;
+}
+.logo{
+    float: left;
+    padding: 0px 10px 10px;
+    margin-top: -9px;
+}
+.logo img{
+    height: 80px;
+    width: 240px;
+}
+.menu{
+    max-width: 100px;
+    padding: 0px 20px;
+    margin: auto;
+}
+nav a {
+    text-decoration: none;
+}
+.nav{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    font-size: 50px;
+}
+.nav ul{
+    list-style: none;
+    padding: 0px 45px;
+    margin-top: -45px;
+}
+.nav ul li{
+    display: inline-block;
+    position: relative;
+}
+.nav ul li:hover{
+    color: white;
+  
+}
+.nav ul li a{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 26px;
+
+}
+.nav ul li a:hover{
+    color: white;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+.menucomplex{
+    float: left;
+    display: block;
+    align-items: center;
+    height: 300px;
+    z-index: 1000;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 95px;
+    margin-left: -250px;
+    border-radius: 10px;
+}
+.menucomplex ul{
+    list-style: none;
+}
+.menucomplex ul li{
+    display: inline-block;
+    position: relative;
+}
+.menucomplex ul li a:hover{
+    font-size: 20px;
+  
+}
+.menucomplex ul li a{
+    color: black;
+    display: block;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 26px;
+
+}
+.menucomplex ul li a:hover{
+    color: red;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info{
+    width: 80%;
+    border-radius: 5px;
+    height: 1200px;
+    margin-left: 150px;
+    background-color: rgba(255, 255, 255, 0.882);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    background-image: linear-gradient(86deg, rgba(0, 0, 0, 0) 95%, #8e41fac3 50%),
+    linear-gradient(176deg, rgba(0,0,0,0) 90%, #393748 90%);
+}
+
+
+caption{
+    color: black;
+    font-size: 40px;
+}
+
+
+article h1{
+    color: black;
+    font-size: 40px;
+    margin-left: 480px;
+}
+article p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+aside p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+video{
+    width: 30%;
+    height: 30%;
+    right: -420px;
+    position: relative;
+    top: -1px;
+}
+.titulito{
+    margin-left: 350px;
+}
+.botonsito{
+    background-color: rgb(105, 101, 159);
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 500px;
+    color: white;
+}
+aside a{
+    text-decoration: none;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.675);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+.footer a {
+        text-decoration: none;
+        color: black;
+        margin-top: 12px;
+        font-size: 20px;
+        font-weight: bold;
+}
+.footer p{
+        color: black;
+        margin-top: 12px;
+        font-size: 20px;
+        font-weight: bold;
+}
+    
+.footer a:hover {
+        font-size: 25px;
+}
